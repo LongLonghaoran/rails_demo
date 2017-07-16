@@ -8,7 +8,7 @@ st->effort
 effort(yes)->success
 effort(no)->gohome
 ```
-
+u
 A B
 has_and_belongs_to_many 多对多关联
 
