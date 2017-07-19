@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  resources :show_barcodes do
+    collection do
+      get 'generate_barcode'
+    end
+  end
+
+  resources :coffes
+
   resources :users
 
   resources :mailers do

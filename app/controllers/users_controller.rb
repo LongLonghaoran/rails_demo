@@ -1,6 +1,10 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
 
+  def default_url_option
+    {a: 1}
+  end
+
   # GET /users
   # GET /users.json
   def index

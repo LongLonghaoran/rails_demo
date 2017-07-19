@@ -1,5 +1,10 @@
 source 'https://gems.ruby-china.org/'
 
+#barby
+gem 'barby', '~> 0.6.5'
+gem 'chunky_png'
+
+#状态机及其辅助gem
 gem 'state_machine'
 gem 'ruby-graphviz',:require => 'graphviz'
 gem 'graphviz'

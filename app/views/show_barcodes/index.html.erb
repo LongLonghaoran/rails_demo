@@ -1,0 +1,7 @@
+<%=image_tag("barcode2.png")%>
+条形码生成器:
+<%= form_tag("/show_barcodes/generate_barcode", method: "get") do %>
+  <%= label_tag(:q, "随意输入一段字符") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("生成条形码") %>
+<% end %>
